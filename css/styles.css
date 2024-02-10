@@ -48,7 +48,6 @@ img {
 aside {
     height: 100vh;
     max-width: 300px;
-    transition: width 0.3s;
 }
 
 .aside-link {
@@ -79,7 +78,7 @@ aside {
 }
 
 .aside-link:hover+.menu-list,
-.menu-link-list:hover {
+.menu-list:hover {
     transform: translateX(0);
 }
 
